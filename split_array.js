@@ -12,6 +12,7 @@ function chunkArrayInGroups(arr, size) {
       
       new_arr.push(temp_arr);
   }
+  console.log(arr);
   return new_arr;
 }
 
